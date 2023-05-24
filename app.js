@@ -140,7 +140,6 @@ let cardConstructor = (property, value) => {
     value.instructions
   }</p>
                         </div> 
-                        <button class="info-button">+ info</button>`;
 
   document.querySelector("#resultNameExercise").appendChild(cardArticle);
 };
