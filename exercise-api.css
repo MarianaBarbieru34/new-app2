@@ -1,0 +1,15 @@
+.exerciseCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.exerciseCard h4 {
+  padding: 1rem;
+  border: 2px solid blue;
+}
+
+.instructionsExercise {
+  padding-bottom: 1rem;
+}
