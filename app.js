@@ -139,7 +139,7 @@ let cardConstructor = (property, value) => {
                           <p class="instructionsExercise">${"What to do:"} ${
     value.instructions
   }</p>
-                        </div> 
+                        </div>`;
 
   document.querySelector("#resultNameExercise").appendChild(cardArticle);
 };
