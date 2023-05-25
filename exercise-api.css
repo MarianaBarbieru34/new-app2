@@ -19,9 +19,6 @@ article {
   background-color: hsl(39, 92%, 48%);
   color: black;
   border-radius: 10%;
-  padding: 5%;
-  width: 50%;
-}
 
 .exerciseCard h4 {
   padding: 1rem;
