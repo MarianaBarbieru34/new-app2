@@ -18,8 +18,6 @@ let valuesTypeOfMusslesAll = [];
 let valuesTypeOfExercisesAll = [];
 let valuesTypeOfDifficultyAll = [];
 
-let myChosenExercises = [];
-
 let apiKey = "e2tk2aVVqC7JgZSqYZMu0w==XUAmhHQElchlx6Fi";
 
 // Get Exercises For The Input Checkbox Values
