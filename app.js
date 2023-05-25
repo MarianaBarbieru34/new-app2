@@ -25,6 +25,8 @@ let apiKey = "e2tk2aVVqC7JgZSqYZMu0w==XUAmhHQElchlx6Fi";
 // Get Exercises For The Input Checkbox Values
 
 const fetchExerciseByAllCheckboxes = () => {
+  document.querySelector("#resultNameExercise").innerHTML = "";
+
   //receive checked checkboxes
 
   let checkboxesTypeOfDifficulty = document.querySelectorAll(
@@ -141,7 +143,8 @@ let cardConstructor = (property, value) => {
   }</p>
                         </div>`;
 
-  document.querySelector("#resultNameExercise").appendChild(cardArticle);
+  const resultBox = document.querySelector("#resultNameExercise");
+  resultBox.appendChild(cardArticle);
 };
 
 // Handle the button after the checkboxes were completed
