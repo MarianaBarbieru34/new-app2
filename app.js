@@ -42,17 +42,14 @@ const fetchExerciseByAllCheckboxes = () => {
   checkboxesTypeOfExercises.forEach((checkbox) => {
     valuesTypeOfExercises.push(checkbox.value);
   });
-  console.log(valuesTypeOfExercises);
 
   checkboxesTypeOfMussles.forEach((checkbox) => {
     valuesTypeOfMussles.push(checkbox.value);
   });
-  console.log(valuesTypeOfMussles);
 
   checkboxesTypeOfDifficulty.forEach((checkbox) => {
     valuesTypeOfDifficulty.push(checkbox.value);
   });
-  console.log(valuesTypeOfDifficulty);
 
   //fetch an arrays of exersises for all chosen types
 
@@ -71,9 +68,6 @@ const fetchExerciseByAllCheckboxes = () => {
       .catch((error) => console.log(error))
   );
 
-  //Check if the fetching types in array are working
-  console.log(valuesTypeOfExercisesAll);
-
   //fetch an array of exersises for all chosen groups of mussles
 
   valuesTypeOfMussles.forEach((muscle) =>
@@ -91,9 +85,6 @@ const fetchExerciseByAllCheckboxes = () => {
 
       .catch((error) => console.log(error))
   );
-
-  //Check if the fetching mussles in array is working
-  console.log(valuesTypeOfMusslesAll);
 
   //fetch an array of exersises for all chosen difficulties
 
@@ -114,9 +105,6 @@ const fetchExerciseByAllCheckboxes = () => {
       })
       .catch((error) => console.log(error))
   );
-
-  //Check if the fetching difficulties in array is working
-  console.log(valuesTypeOfDifficultyAll);
 };
 
 let cardConstructor = (property, value) => {
