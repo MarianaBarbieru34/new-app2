@@ -7,6 +7,9 @@
 }
 body {
   font-family: monospace;
+  background-image: url(banner.jpg);
+  background-size: cover;
+  color: white;
 }
 nav {
   background: blue;
@@ -59,4 +62,9 @@ a:hover {
   .column {
     width: 100%;
   }
+}
+section {
+  margin: auto;
+  text-align: center;
+  align-items: center;
 }
